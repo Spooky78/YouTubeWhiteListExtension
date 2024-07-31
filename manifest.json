@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "YouTube Channel Filter",
+  "version": "1.0",
+  "description": "Block all YouTube videos except from allowed channels.",
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/*"],
+      "js": ["whitelistVideos.js"]
+    }
+  ]
+}
