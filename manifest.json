@@ -1,6 +1,6 @@
 {
-  "manifest_version": 2,
-  "name": "YouTube Channel Filter",
+  "manifest_version": 1,
+  "name": "YouTube Whitelist",
   "version": "1.0",
   "description": "Block all YouTube videos except from allowed channels.",
   "permissions": [
